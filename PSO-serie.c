@@ -128,7 +128,7 @@ int main(){
         }
         
         /* Imprimindo resultados */
-        Echo("Iteração: ");
+        Echo("Iteracao: ");
         Echo(itoa(ite));
         Echo("Melhor Particula: ");
         Echo(itoa(Menor));
@@ -137,9 +137,9 @@ int main(){
         ite = ite + 1;
     }
     
-    Echo("Melhor resultado da função: ");
+    Echo("Melhor resultado da funcao: ");
     Echo(itoa(MenorFun));
-    Echo("Melhor solução: ");
+    Echo("Melhor solucao: ");
     Echo("x1 = ");
     Echo(itoa(gbest[0]));
     Echo("x2 = ");

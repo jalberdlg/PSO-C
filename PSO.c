@@ -129,14 +129,14 @@ int main(){
         
         /* Imprimindo resultados */
         if (ite == 0){
-            printf("Iteração    Melhor Particula    Função Objetivo \n");
+            printf("Iteracao    Melhor Particula    Função Objetivo \n");
         }
         printf("%d            %d            %f \n", ite, Menor, MenorFun);
         ite = ite + 1;
     }
     
-    printf("Melhor resultado da função: %f \n", MenorFun0);
-    printf("Melhor solução: \n");
+    printf("Melhor resultado da funcao: %f \n", MenorFun0);
+    printf("Melhor solucao: \n");
     printf("x1 = %f \n", gbest[0]);
     printf("x2 = %f \n", gbest[1]);
 }
